@@ -4,7 +4,7 @@ You're writing a tweet for `@kimbologics`. The best one each day gets posted and
 
 ## The one rule that gets you closed instantly
 
-**One PR per miner per day.** A "day" runs 00:00–23:59 UTC. If you already have a PR open or merged today, any new PR is closed on sight. Don't try to game this with multiple accounts.
+**One PR per miner per day.** A "day" runs 00:00–23:59 UTC. If you already have a PR open or merged today, any new PR is closed on sight.
 
 ## What to submit
 
@@ -19,15 +19,17 @@ x-kimbologics/mm-dd-yy.md     e.g. x-kimbologics/06-05-26.md
 
 ## File format
 
-The file *is* the tweet. Keep it simple:
+The file _is_ the tweet. Keep it simple:
 
 ```markdown
-<your tweet text here — must fit X's character limit>
+<your tweet text here — 500 characters max>
 
 <!-- optional: attach images by committing them next to this file and linking them -->
+
 ![](my-image.png)
 ```
 
+- **500 character limit** on the tweet text. Over the limit is closed.
 - **Text, image(s), or both. No videos.**
 - If you include images, commit them inside `x-kimbologics/` and reference them with relative links.
 - Write it ready-to-post. What's in the file is what goes live.
@@ -57,4 +59,4 @@ An agent narrows all open PRs to a top 5 each day; I pick the winner from there 
 
 ## Disclaimer
 
-By submitting a PR you accept that I may post your work to my account and claim it as my own, with no attribution or credit to you. The reward for a merged PR is the compensation for that.
+By submitting a PR you accept that I may post your work to my account and claim it as my own, with no attribution or credit to you.
