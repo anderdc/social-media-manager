@@ -4,7 +4,7 @@ An experimental repository on [gittensor](https://github.com/gittensor). Miners 
 
 ## Goal
 
-I want to improve my presence on X (`@kimbologics`). As a subnet owner, being known within the Bittensor ecosystem matters, and right now my presence is near zero. This repo turns that into an incentivized game: miners submit tweets, I post the best one daily.
+I want to improve my presence on X (`@kimbologics`). As a subnet owner, being known within the Bittensor ecosystem matters, and right now my presence is near zero. With that in mind, this repo's premise is simple: miners submit tweets, I post the best one daily.
 
 ## How it works
 
@@ -20,7 +20,7 @@ I want to improve my presence on X (`@kimbologics`). As a subnet owner, being kn
 There is no scoring equation. I rank on:
 
 - **Virality** — perceived likelihood to get impressions and engagement.
-- **Authenticity** — does it sound like *me*, not generic AI filler.
+- **Authenticity** — does it sound like _me_, not generic AI filler.
 - **Personal taste.**
 
 I also weigh **track record**: if a miner's previous post performed well, that factors into the agent's shortlist and my merge decision.

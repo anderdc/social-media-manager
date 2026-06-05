@@ -54,3 +54,7 @@ An agent narrows all open PRs to a top 5 each day; I pick the winner from there 
 - Use multiple accounts to get around the daily limit.
 - Edit files outside your single dated markdown file.
 - Submit videos, or content that isn't ready to post as-is.
+
+## Disclaimer
+
+By submitting a PR you accept that I may post your work to my account and claim it as my own, with no attribution or credit to you. The reward for a merged PR is the compensation for that.
