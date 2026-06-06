@@ -48,7 +48,7 @@ reaction.jpg
 
 There is no objective formula. I rank the shortlist on:
 
-- **Virality** — will it actually get impressions and engagement?
+- **Virality** — will it possibly get impressions and engagement?
 - **Fit** — right for my account and audience. It doesn't have to sound like me; informative or neutral tones are fine — just not lazy, generic filler.
 - **Taste** — mine.
 - **Track record** — if your past posts performed, that helps.
