@@ -20,7 +20,7 @@ I want to improve my presence on X (`@kimbologics`). As a subnet owner, being kn
 There is no scoring equation. I rank on:
 
 - **Virality** — perceived likelihood to get impressions and engagement.
-- **Authenticity** — does it sound like _me_, not generic AI slop.
+- **Fit** — right for the account and audience. Doesn't have to mimic my voice; informative or neutral tones are fine, just not lazy, generic filler.
 - **Personal taste.**
 
 I also take **track record** into account: if a miner's previous post performed well, that factors into the agent's shortlist and my merge decision.

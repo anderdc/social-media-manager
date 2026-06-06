@@ -46,7 +46,7 @@ reaction.jpg
 There is no formula. I rank the shortlist on:
 
 - **Virality** — will it actually get impressions and engagement?
-- **Authenticity** — does it sound like me, not generic AI slop?
+- **Fit** — right for my account and audience. It doesn't have to sound like me; informative or neutral tones are fine — just not lazy, generic filler.
 - **Taste** — mine.
 - **Track record** — if your past posts performed, that helps.
 
@@ -60,7 +60,6 @@ An agent narrows all open PRs to a top 5 each day; I pick the winner from there 
 ## Don't
 
 - Submit more than one PR per day.
-- Use multiple accounts to get around the daily limit.
 - Edit your PR after opening it — description or files.
 - Add anything beyond your dated `.md` and up to 4 images.
 - Submit videos, or content that isn't ready to post as-is.
