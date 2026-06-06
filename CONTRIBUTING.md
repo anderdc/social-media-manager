@@ -9,10 +9,10 @@ You must be an **active SN74 miner with your GitHub account linked** to your hot
 ## How to submit
 
 1. **Fork** this repo.
-2. **Add exactly one file** — `x-kimbologics/mm-dd-yy.md`, named with today's date (US Central). This file is your tweet. Optionally add up to **4 images** (`.png`, `.jpg`, or `.jpeg`) in the same folder. Nothing else: any other file, folder, or change closes the PR.
+2. **Add exactly one markdown file** — `x-kimbologics/mm-dd-yy-<your-username>.md`, named with today's date (US Central) and your GitHub username, e.g. `x-kimbologics/06-09-26-oktofeesh1.md`. This file is your tweet. Optionally add up to **4 images** (`.png`, `.jpg`, or `.jpeg`) in the same folder, each named starting with that same stem (e.g. `06-09-26-oktofeesh1-1.png`). Nothing else: any other file, folder, or change closes the PR.
 3. **Open one PR against `main`**, using the PR template.
 
-Submit before the daily run (**~4:30pm US Central**) — a PR that misses the run, or is named with the wrong day, is closed. All open PRs target the same dated file, so only one can win the slot.
+Submit before the daily run (**~4:30pm US Central**) — a PR that misses the run, or is named with the wrong day or username, is closed. Naming files with your username keeps every submission separate, so winners are chosen on merit, not a filename race.
 
 ## Rules that get you closed instantly
 
@@ -30,15 +30,15 @@ The `.md` file **is** the tweet — write it exactly as it should appear on X.
 
 - **Format your post.** Write it with the structure it should have live — line breaks, lists, emoji. You can use markdown **bold** and _italics_; those get rendered to X-styled text when posted. Write it to read exactly as you want it to appear.
 - **500 character limit** on the tweet text (everything above the `===IMAGES===` line). Over the limit is closed.
-- **Images** (optional): commit up to 4 `.png`/`.jpg`/`.jpeg` files in `x-kimbologics/`. To attach them, end the tweet with a line that is exactly `===IMAGES===`, then list each filename on its own line in display order:
+- **Images** (optional): commit up to 4 `.png`/`.jpg`/`.jpeg` files in `x-kimbologics/`, each named starting with your `mm-dd-yy-<username>` stem. To attach them, end the tweet with a line that is exactly `===IMAGES===`, then list each filename on its own line in display order:
 
 ```
 Your tweet, formatted exactly as it should post.
 Line breaks and emoji included. 🎉
 
 ===IMAGES===
-chart.png
-reaction.jpg
+06-09-26-oktofeesh1-1.png
+06-09-26-oktofeesh1-2.png
 ```
 
 - **Text-only?** Just write the tweet — no delimiter needed. **Image-only?** Leave the text empty and start with `===IMAGES===`.

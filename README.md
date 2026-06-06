@@ -28,12 +28,12 @@ Rules are intentionally lax — **any PR that gets merged is rewarded.** There i
 ```
 README.md
 CONTRIBUTING.md
-x-kimbologics/          # <platform>-<username>; scales to other accounts/platforms later
-  06-05-26.md           # one merged post per day, named mm-dd-yy.md
-  06-06-26.md
+x-kimbologics/                   # <platform>-<username>; scales to other accounts/platforms later
+  06-09-26-oktofeesh1.md         # merged post, named mm-dd-yy-<github-username>.md
+  06-10-26-pixelbob.md
   ...
 ```
 
-Every PR adds a single markdown file to `x-kimbologics/` named with today's date as `mm-dd-yy.md`. Since all PRs target the same dated file, only one can win the slot each day.
+Every PR adds one markdown file to `x-kimbologics/` named with today's date and the author's GitHub username — `mm-dd-yy-<username>.md`. Each miner gets their own file, so submissions never collide and the winner is chosen on merit, not a filename race.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the exact PR format and rules.
