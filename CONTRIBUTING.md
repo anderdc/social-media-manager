@@ -4,7 +4,7 @@ You're writing a tweet for `@kimbologics`. The best one each day gets posted and
 
 ## Before you start
 
-You must be an **active SN74 miner with this GitHub account linked** to your hotkey. Check the [gittensor.io](https://gittensor.io) dashboard — if you don't see yourself there, you're not eligible yet and your PR is closed on sight. A merged post only rewards a registered miner.
+You must be an **active SN74 miner with your GitHub account linked** to your hotkey. Check the [gittensor.io](https://gittensor.io) dashboard — if you don't see yourself there, you're not registered yet and your PR will be closed.
 
 ## How to submit
 
@@ -46,7 +46,7 @@ reaction.jpg
 
 ## How your PR gets merged
 
-There is no formula. I rank the shortlist on:
+There is no objective formula. I rank the shortlist on:
 
 - **Virality** — will it actually get impressions and engagement?
 - **Fit** — right for my account and audience. It doesn't have to sound like me; informative or neutral tones are fine — just not lazy, generic filler.
