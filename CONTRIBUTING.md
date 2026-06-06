@@ -1,6 +1,18 @@
 # Contributing
 
-You're writing a tweet for `@kimbologics`. The best one each day gets posted and earns that day's rewards. Read the rules below before opening a PR.
+You're writing a tweet for `@kimbologics`. The best one each day gets posted and earns that day's rewards. Read this before opening a PR.
+
+## Before you start
+
+You must be an **active SN74 miner with this GitHub account linked** to your hotkey. Check the [gittensor.io](https://gittensor.io) dashboard — if you don't see yourself there, you're not eligible yet and your PR is closed on sight. A merged post only rewards a registered miner.
+
+## How to submit
+
+1. **Fork** this repo.
+2. **Add exactly one file** — `x-kimbologics/mm-dd-yy.md`, named with today's date (US Central). This file is your tweet. Optionally add up to **4 images** (`.png`, `.jpg`, or `.jpeg`) in the same folder. Nothing else: any other file, folder, or change closes the PR.
+3. **Open one PR against `main`**, using the PR template.
+
+Submit before the daily run (**~4:30pm US Central**) — a PR that misses the run, or is named with the wrong day, is closed. All open PRs target the same dated file, so only one can win the slot.
 
 ## Rules that get you closed instantly
 
@@ -11,15 +23,6 @@ You're writing a tweet for `@kimbologics`. The best one each day gets posted and
 ## Prohibited — closed and banned
 
 Slurs, hate speech, illegal content, doxxing, and toxic or harassing behavior are not allowed. A PR containing any of it is closed immediately and the author is **banned from the repo** — this removes you entirely.
-
-## What to submit
-
-A PR that adds, under `x-kimbologics/`, and **nothing else**:
-
-- **exactly one** markdown file named with today's date — `x-kimbologics/mm-dd-yy.md` (e.g. `x-kimbologics/06-05-26.md`)
-- optionally **up to 4 images** — `.png`, `.jpg`, or `.jpeg` only
-
-No other files, folders, or edits. Any other file type, a 5th image, or touching anything else closes the PR. All open PRs target the same dated file — only one can win the slot.
 
 ## File format
 
@@ -51,18 +54,6 @@ There is no formula. I rank the shortlist on:
 - **Track record** — if your past posts performed, that helps.
 
 An agent narrows all open PRs to a top 5 each day; I pick the winner from there and merge it.
-
-## What happens to your PR
-
-- **Merged** → your post goes live and you earn the day's rewards.
-- **Not picked** → closed at end of day. No backlog carries over. Submit again tomorrow.
-
-## Don't
-
-- Submit more than one PR per day.
-- Edit your PR after opening it — description or files.
-- Add anything beyond your dated `.md` and up to 4 images.
-- Submit videos, or content that isn't ready to post as-is.
 
 ## Disclaimer
 

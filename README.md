@@ -4,26 +4,20 @@ This is an experimental repository on [gittensor](https://github.com/entrius/git
 
 ## Goal
 
-I want to improve my presence on X (`@kimbologics`). As a subnet owner, being known within the Bittensor ecosystem is important for a subnet owner, and right now my presence is virtually zero. With that in mind, this repo's premise is simple: miners submit tweets, I post the best one daily.
+I want to improve my presence on X (`@kimbologics`). As a subnet owner, being known within the Bittensor ecosystem is important, and right now my presence is virtually zero. With that in mind, this repo's premise is simple: miners submit tweets, I post the best one daily. In theory, consistency along with occasionally banger tweets should bring more impressions overall.
 
 ## How it works
 
-1. **Miners submit PRs.** Each PR is one candidate post — text, image(s), or both. No videos. (Follow the PR template)
+1. **Miners submit PRs.** Each PR is one candidate post — text, image(s), or both. No videos. Follow the PR template.
 2. **One PR per miner per day.** Any additional PR from the same miner is closed. The day resets at midnight US Central Time (`America/Chicago`).
-3. **The agent culls to a shortlist.** Once a day an agentic maintainer reads every open PR and narrows them to the top 5 for me to review.
+3. **The agent culls to a shortlist.** Once a day (around 4:30pm Central) an agentic maintainer reads every open PR and narrows them to the top 5 for me to review.
 4. **I pick the winner.** I merge exactly one PR. That post goes live on my X account.
 5. **The winner earns the day.** I adjusted the repositories hyperparameters such that only the latest person with a `crown` labeled merged PR earns rewards.
 6. **Clean slate.** All remaining open PRs are closed at end of day — no backlog. It repeats tomorrow.
 
 ## How winners are chosen
 
-There is no scoring equation. I rank on:
-
-- **Virality** — perceived likelihood to get impressions and engagement.
-- **Fit** — right for the account and audience. Doesn't have to mimic my voice; informative or neutral tones are fine, just not lazy, generic filler.
-- **Personal taste.**
-
-I also take **track record** into account: if a miner's previous post performed well, that factors into the agent's shortlist and my merge decision.
+No scoring equation — I rank the day's shortlist on virality, fit, and personal taste, and weigh each miner's track record. See [CONTRIBUTING.md](CONTRIBUTING.md#how-your-pr-gets-merged) for the full criteria.
 
 ## Eligibility
 
@@ -40,6 +34,6 @@ x-kimbologics/          # <platform>-<username>; scales to other accounts/platfo
   ...
 ```
 
-Every PR adds a single markdown file to `x-kimbologics/` named with today's date as `mm-dd-yy.md`. Since all PRs target the same dated file, only one can win the slot each day. In general I run an agentic-pipeline ~4:30p America/Chicago time.
+Every PR adds a single markdown file to `x-kimbologics/` named with today's date as `mm-dd-yy.md`. Since all PRs target the same dated file, only one can win the slot each day.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the exact PR format and rules.
