@@ -4,9 +4,13 @@ You're writing a tweet for `@kimbologics`. The best one each day gets posted and
 
 ## Rules that get you closed instantly
 
-**One PR per miner per day.** A "day" runs midnight to midnight **US Central Time** (`America/Chicago`, which shifts with daylight saving). A second PR while you already have one open or merged today is closed on sight.
+**One PR per miner per day.** A "day" runs midnight to midnight **US Central Time** (`America/Chicago`). A second PR while you already have one open or merged today will be closed.
 
-**No edits after opening.** Once your PR is open, any change — to the description *or* the files — closes it instantly. Get it right before you open; you don't get to revise.
+**No edits after opening.** Once your PR is open, any change — to the description _or_ the files — is liable to be closed. Get it right before you open; you don't get to revise.
+
+## Prohibited — closed and banned
+
+Slurs, hate speech, illegal content, doxxing, and toxic or harassing behavior are not allowed. A PR containing any of it is closed immediately and the author is **banned from the repo** — this removes you entirely.
 
 ## What to submit
 
@@ -63,4 +67,4 @@ An agent narrows all open PRs to a top 5 each day; I pick the winner from there 
 
 ## Disclaimer
 
-By submitting a PR you accept that I may post your work to my account and claim it as my own, with no attribution or credit to you.
+By submitting a PR you accept that I may post your work to my account and claim it as my own.
