@@ -2,39 +2,42 @@
 
 You're writing a tweet for `@kimbologics`. The best one each day gets posted and earns that day's rewards. Read the rules below before opening a PR.
 
-## The one rule that gets you closed instantly
+## Rules that get you closed instantly
 
-**One PR per miner per day.** A "day" runs 00:00–23:59 UTC. If you already have a PR open or merged today, any new PR is closed on sight.
+**One PR per miner per day.** A "day" runs midnight to midnight **US Central Time** (`America/Chicago`, which shifts with daylight saving). A second PR while you already have one open or merged today is closed on sight.
+
+**No edits after opening.** Once your PR is open, any change — to the description *or* the files — closes it instantly. Get it right before you open; you don't get to revise.
 
 ## What to submit
 
-A PR that adds **exactly one markdown file** to the `x-kimbologics/` folder, named with today's date:
+A PR that adds, under `x-kimbologics/`, and **nothing else**:
 
-```
-x-kimbologics/mm-dd-yy.md     e.g. x-kimbologics/06-05-26.md
-```
+- **exactly one** markdown file named with today's date — `x-kimbologics/mm-dd-yy.md` (e.g. `x-kimbologics/06-05-26.md`)
+- optionally **up to 4 images** — `.png`, `.jpg`, or `.jpeg` only
 
-- Touch nothing else. A PR that edits other files, other folders, or more than one file is closed.
-- All open PRs target the same dated file — that's intentional. Only one can win the slot.
+No other files, folders, or edits. Any other file type, a 5th image, or touching anything else closes the PR. All open PRs target the same dated file — only one can win the slot.
 
 ## File format
 
-The file _is_ the tweet. Keep it simple:
+The `.md` file **is** the tweet — write it exactly as it should appear on X.
 
-```markdown
-<your tweet text here — 500 characters max>
+- **Format your post.** Write it with the structure it should have live — line breaks, lists, emoji. You can use markdown **bold** and _italics_; those get rendered to X-styled text when posted. Write it to read exactly as you want it to appear.
+- **500 character limit** on the tweet text (everything above the `===IMAGES===` line). Over the limit is closed.
+- **Images** (optional): commit up to 4 `.png`/`.jpg`/`.jpeg` files in `x-kimbologics/`. To attach them, end the tweet with a line that is exactly `===IMAGES===`, then list each filename on its own line in display order:
 
-<!-- optional: attach images by committing them next to this file and linking them -->
+```
+Your tweet, formatted exactly as it should post.
+Line breaks and emoji included. 🎉
 
-![](my-image.png)
+===IMAGES===
+chart.png
+reaction.jpg
 ```
 
-- **500 character limit** on the tweet text. Over the limit is closed.
-- **Text, image(s), or both. No videos.**
-- If you include images, commit them inside `x-kimbologics/` and reference them with relative links.
-- Write it ready-to-post. What's in the file is what goes live.
+- **Text-only?** Just write the tweet — no delimiter needed. **Image-only?** Leave the text empty and start with `===IMAGES===`.
+- Only the text **above** `===IMAGES===` is posted and counted toward 500. Everything below it is just the image list.
 
-## How you win
+## How your PR gets merged
 
 There is no formula. I rank the shortlist on:
 
@@ -54,7 +57,8 @@ An agent narrows all open PRs to a top 5 each day; I pick the winner from there 
 
 - Submit more than one PR per day.
 - Use multiple accounts to get around the daily limit.
-- Edit files outside your single dated markdown file.
+- Edit your PR after opening it — description or files.
+- Add anything beyond your dated `.md` and up to 4 images.
 - Submit videos, or content that isn't ready to post as-is.
 
 ## Disclaimer
