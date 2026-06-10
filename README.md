@@ -17,11 +17,11 @@ I want to improve my presence on X (`@kimbologics`). As a subnet owner, being kn
 
 ## How winners are chosen
 
-No scoring equation — I rank the day's shortlist on virality, fit, and personal taste, and weigh each miner's track record (if any). See [CONTRIBUTING.md](CONTRIBUTING.md#how-your-pr-gets-merged) for the full criteria.
+I rank the day's finalists on virality, fit, and personal taste, and weigh each miner's track record (if any). See [CONTRIBUTING.md](CONTRIBUTING.md#how-your-pr-gets-merged).
 
 ## Eligibility
 
-Rules are intentionally lax — **any PR that gets merged is rewarded.** There is no credibility gate or minimum history to participate.
+This repository has its hyperparameters configured such that only PRs with the `crown` label get rewarded. My maintainer agent will always set the winning PR with that label and remove all other PRs with `crown` label. Which causes this repo to be 'winner take all' until I run the agentic pipeline again.
 
 ## Repo structure
 
