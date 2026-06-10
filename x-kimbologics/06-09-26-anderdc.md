@@ -1,1 +1,0 @@
-spent the morning watching a subnet's emissions reshuffle in real time and it clicked: incentive design is just storytelling with money. the miners who win aren't gaming the curve, they understood the story the validators were trying to tell. 🧵
